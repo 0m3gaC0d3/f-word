@@ -14,11 +14,17 @@
 	},
 	"require-dev": {
 		"kint-php/kint": "^3.3",
-        "friendsofphp/php-cs-fixer": "^2.18"
+        "friendsofphp/php-cs-fixer": "^2.18",
+        "phpunit/phpunit": "^8.5"
 	},
 	"autoload": {
 		"psr-4": {
 			"OmegaCode\\FWord\\": "src/"
+		}
+	},
+	"autoload-dev": {
+		"psr-4": {
+			"OmegaCode\\FWord\\Tests\\": "tests/"
 		}
 	},
 	"config": {
