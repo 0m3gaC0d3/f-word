@@ -1,0 +1,14 @@
+language: php
+php:
+  - 7.2
+cache:
+  directories:
+    - $HOME/.cache/composer/files
+notifications:
+  email:
+    recipients:
+      - wpu@hotmail.de
+    on_success: change
+    on_failure: change
+before_script:
+  - composer install
